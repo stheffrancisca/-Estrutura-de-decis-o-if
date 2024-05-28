@@ -1,0 +1,120 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOSfNgWZCXcfXgFSPI9hAUy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/stheffrancisca/-Estrutura-de-decis-o-if/blob/main/Criando%20Variaves\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Ri7lUm08MgxO"
+      },
+      "outputs": [],
+      "source": [
+        "# Biblioteca python\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(123456)\n",
+        "print('valor',123456)\n",
+        "print('valor {}'.format(123456))\n",
+        "print(f'valor ={123456}')\n",
+        "print(\"valor\",1234560)\n",
+        "print(\"valor ={}\".format(123456))\n",
+        "print(f\"valor ={123456}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "meXkbDPhMpt5",
+        "outputId": "917d255e-42b0-453f-9ee8-55358c0a92cf"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "123456\n",
+            "valor 123456\n",
+            "valor 123456\n",
+            "valor =123456\n",
+            "valor 1234560\n",
+            "valor =123456\n",
+            "valor =123456\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Algumas palavras são consideradas reservadas e não podem ser usadas como\n",
+        "#identificadores de variáveis em Python. São elas: and, as, assert, break, class,\n",
+        "#continue, def, del, elif, else, except, exec, finally, for, from, global, if,\n",
+        "#import, in, is, lambda, not, or, pass, print, raise, return, try, while, withe yield.\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "TtHmbEwSVBDA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = ['U'] + ['RN']\n",
+        "len(a)\n",
+        "b = ['4'] * 4\n",
+        "len(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rx7lvzu7rGIh",
+        "outputId": "27989d34-4ff3-4713-f4fc-40f614a00567"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "4"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ]
+    }
+  ]
+}
