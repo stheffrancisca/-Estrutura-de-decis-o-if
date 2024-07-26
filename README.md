@@ -2,8 +2,6 @@
 # Bem-vinda ao meu repositório de soluções para problemas de programação! Aqui você encontrará scripts Python que resolvem desafios diversos, ideais para praticar lógica e algoritmos. Cada script é claro e eficiente, perfeito para iniciantes ou para revisar conceitos básicos. Aproveite e contribua!
 
 
-
-
 #### 1. Faça um Programa que peça dois números e imprima o maior deles.
 
 numero1 = float(input('Informe o primeiro número: '))
